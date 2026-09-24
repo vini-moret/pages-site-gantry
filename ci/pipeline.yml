@@ -2,7 +2,7 @@
 #@ load("funcs.lib.yml", "slack_hook", "pr_hook")
 #@ load("@ytt:data", "data")
 #@ load("@ytt:template", "template")
-
+#@ myend = values.myenv
 #@ env = data.values.env
 
 #!  JOBS
